@@ -4,10 +4,11 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/navBar";
+import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

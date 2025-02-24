@@ -4,10 +4,10 @@ import "./css/NavBar.css";
 function Navbar() {
   return (
     <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
+      <Link to="/" className="title">
+        Home
+      </Link>
+      <ul className="open">
         <li>
           <Link to="/about">About</Link>
         </li>
